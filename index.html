@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar-se no Facebook | Facebook</title>
+
+<body>
+    <h1>Cadastre-se</h1>
+    <p>É rápido e fácil.</p>
+
+    <form method="post" action="index.html">
+        <input type="text" name="nome" id="nome" placeholder="Nome" required>
+        <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required><br><br>
+        <input type="text" name="contato" id="contato" placeholder="Celular ou email" required><br><br>
+        <input type="password" name="senha" id="senha" placeholder="Nova Senha" required><br><br>
+
+        <label">Data de nascimento</label><br>
+        <input type="number" value="5" min="1" max="31" name="data-nascimento" id="data-nascimento">
+        
+        <select name="dia" id="data-nascimento">
+            <option value="jan">Jan</option>
+            <option value="fev">Fev</option>
+            <option value="mar">Mar</option>
+            <option value="abr">Abr</option>
+            <option value="mai">Mai</option>
+            <option value="jun">Jun</option>
+            <option value="jul">Jul</option>
+            <option value="ago">Ago</option>
+            <option value="set">Set</option>
+            <option value="out">Out</option>
+            <option value="nov">Nov</option>
+            <option value="dez">Dez</option>
+        </select>
+
+        <input type="number" value="2022" name="data-nascimento" id="data-nascimento"><br><br>
+
+        <label>Gênero</label><br>   
+        <label for="feminino">Feminino</label>
+        <input id="feminino" type="radio" name="genero">
+
+        <label for="masculino">Masculino</label>
+        <input id="masculino" type="radio" name="genero">
+
+        <label for="personalizado">Personalizado</label>
+        <input id="personalizado" type="radio" name="genero"><br><br>
+
+        <p style="font-size: smaller;">Ao clicar em Cadastre-se, você concorda com nossos <a href="">Termos</a>, <a href="">Política de Dados</a> e <a href="">Política de Cookies</a>. Você poderá receber notificações por SMS e cancelar isso quando quiser.</p>    
+        <input type="submit" value="Cadastre-se">
+    </form>
+</body>
+
+</html>
